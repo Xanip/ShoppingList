@@ -1,20 +1,18 @@
 /* src/components/common/ConfirmDialog.css */
 
-/* A Material UI Dialog egy "Portal"-ba renderel, ezért közvetlenül az elemeket célozzuk */
-
 .ConfirmDialog-text {
-    color: #c62828 !important; /* Sötétvörös szöveg */
-    font-weight: bold !important;
+    color: #c62828 ;
+    font-weight: bold ;
 }
 
 .ConfirmDialog-content {
-    padding: 24px 24px 10px 24px !important;
+    padding: 24px 24px 10px 24px ;
     min-width: 300px;
-    text-align: center !important;
+    text-align: center ;
 }
 
 .ConfirmDialog-actions {
-    padding: 16px 24px !important;
+    padding: 16px 24px ;
     background-color: #fafafa;
-    justify-content: space-between !important;
+    justify-content: space-between ;
 }

@@ -1,27 +1,26 @@
 /* 1. A KONTÉNER (Maga a Box) */
 .DashboardControls-row {
-    display: flex !important;       /* Egymás mellé rendezi őket */
-    align-items: center !important; /* Függőlegesen középre */
-    justify-content: center; /* Széthúzza őket a szélekre */
-    gap: 16px;                      /* Térköz az elemek között */
-    width: 100%;                    /* Kitölti a rendelkezésre álló helyet */
+    display: flex ;       
+    align-items: center ; 
+    justify-content: center; 
+    gap: 16px;                      
+    width: 100%;                    
 }
 
 /* 2. AZ ELEMEK SZÉLESSÉGE (Sorrend alapján) */
-
 /* Az első elem (Hozzáadás gomb) */
 .DashboardControls-row > :nth-child(1) {
-    width: 20% !important; /* Vagy min-width: 150px; */
+    width: 20% ; 
 }
 
 /* A második elem (FilterBar - Középső) */
 .DashboardControls-row > :nth-child(2) {
-    width: 20% !important; /* Ez legyen a legszélesebb */
+    width: 20% ; 
     
 }
 
 /* A harmadik elem (Törlés gomb) */
 .DashboardControls-row > :nth-child(3) {
-    width: 20% !important; /* Ugyanakkora, mint az első */
+    width: 20%; 
     display: flex;
 }

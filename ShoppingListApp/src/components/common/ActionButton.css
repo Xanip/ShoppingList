@@ -1,16 +1,15 @@
 .ActionButton {
     margin: 8px !important; 
-    text-transform: none !important; 
 }
 
 .ActionButton.icon-only {
-    min-width: 40px !important; 
-    width: 40px !important;
-    height: 40px !important;
-    padding: 0 !important;      
-    border-radius: 4px !important; 
+    min-width: 40px ; 
+    width: 40px ;
+    height: 40px ;
+    padding: 0 ;      
+    border-radius: 4px ; 
 }
 
 .ActionButton.icon-only .MuiButton-startIcon {
-    margin: 0 !important;
+    margin: 0 ;
 }
