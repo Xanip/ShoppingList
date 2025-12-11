@@ -1,0 +1,11 @@
+.Header{
+    height: 150px !important;
+    background-color: #3EA0FF !important;
+}
+
+.Header-Chip{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #3EA0FF 0%, #C218FF 100%);
+}

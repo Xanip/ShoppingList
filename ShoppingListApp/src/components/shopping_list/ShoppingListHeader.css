@@ -1,0 +1,28 @@
+.ShoppingListHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    background: #ffffff;
+    border-bottom: 2px solid #e3e6ef;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.06);
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #2d2d2d;
+}
+
+.ShoppingListHeader > :first-child {
+    text-align: left;
+}
+
+.ShoppingListHeader > :nth-child(2) {
+    text-align: center;
+}
+
+.ShoppingListHeader > :nth-child(3) {
+    text-align: center;
+}
+
+.ShoppingListHeader > :last-child {
+    text-align: right;
+}

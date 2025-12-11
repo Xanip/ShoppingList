@@ -1,0 +1,12 @@
+/* src/components/dashboard/FilterBar.css */
+
+/* Ez a szabály a KIVÁLASZTOTT elemet célozza meg a Select belsejében */
+.FilterBar .MuiSelect-select {
+    display: flex !important;       /* Bekapcsoljuk a flexboxot a szövegdobozon belül is */
+    height: 24px !important;
+    padding-top: 20px !important;
+}
+
+.FilterBar {
+   
+}
