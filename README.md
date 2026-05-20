@@ -8,7 +8,7 @@
 
 ## Getting Started
 
--   `npm run dev` - Starts a dev server at http://localhost:5173/
+-   `npm run start` - Starts a dev server at http://localhost:5173/
 
 -   `npm run build` - Builds for production, emitting to `dist/`
 
