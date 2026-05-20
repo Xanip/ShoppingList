@@ -168,7 +168,7 @@ export function useShoppingList() {
  */
 export const playSoundEffect = (type: 'add' | 'delete') => {
     try {
-        const path = type === 'add' ? '../sound/addButtonNoise.mp3' : '../sound/deleteButtonNoise.mp3';
+        const path = type === 'add' ? 'public/sound/addButtonNoise.mp3' : 'public/sound/deleteButtonNoise.mp3';
         const audio = new Audio(path);
         audio.volume = 0.5; 
         audio.play();
