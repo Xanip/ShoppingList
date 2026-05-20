@@ -1,6 +1,8 @@
 import { createContext, useContext, useState, useEffect, useMemo, ReactNode } from 'react';
 import { ShoppingItem, ShoppingItemType } from '../types/ShoppingItem';
 import { AlertColor } from '@mui/material';
+import addSoundEffect from '../sounds/addButtonNoise.mp3';
+import deleteSoundEffect from '../sounds/deleteButtonNoise.mp3';
 
 /**
  * A szűrési opciók típusa.
@@ -168,8 +170,7 @@ export function useShoppingList() {
  */
 export const playSoundEffect = (type: 'add' | 'delete') => {
     try {
-        const path = type === 'add' ? 'public/sound/addButtonNoise.mp3' : 'public/sound/deleteButtonNoise.mp3';
-        const audio = new Audio(path);
+        const audio = new Audio(type === 'add' ? addSoundEffect : deleteSoundEffect);
         audio.volume = 0.5; 
         audio.play();
     } catch (error) {
